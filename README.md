@@ -4,6 +4,11 @@
 
 <img width="2360" height="1391" alt="image" src="https://github.com/user-attachments/assets/e0ce242b-215e-4682-bb2e-fe443181753b" />
 
+## PCB Design
+
+The PCB was designed in Protoboard Designer.
+
+[Open the ClunkeyCore PCB Design](https://app.protoboarddesigner.com/s/6acc40a4d36d0114d4fe) 
 
 # ClunkeyCore — ESP32 Robotics Controller
 
