@@ -110,3 +110,59 @@ I spent time continuing the ClunkeyCore PCB layout for the Clunkey Rover. I conn
 ![IMG_0126](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/2DzupgroQiyESZ4TOplYYXhciyEobU0X/77cd40a75535db8cdef06fefa27dae3912b9442b0f548724b946873b04437f57.jpg)
 
 ![IMG_0127](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/2DzupgroQiyESZ4TOplYYXhciyEobU0X/b01748dbd7593c4276b3ed5a958323c83f134f73765376e9dea2b77a91c9941f.jpg)
+
+# ClunkeyCore — Project Journal
+
+## PCB Layout and Final Routing Review
+
+### Work Completed
+
+I continued developing the ClunkeyCore PCB design for my Clunkey Rover project. I focused on completing and reviewing the major connections on the board.
+
+I connected the four motor outputs to two TB6612FNG motor-driver placeholder footprints. Motor 1 and Motor 2 were routed to the TB6612 #2 placeholder, while Motor 3 and Motor 4 were routed to the TB6612 #1 placeholder.
+
+I also completed the planned power routing from the power input to the two motor-driver placeholders. These connections use placeholder pad assignments because the exact TB6612 module footprint was not available in Protoboard Designer.
+
+### HC-SR04 Connections
+
+I completed and checked the HC-SR04 connections:
+
+- VCC → ESP32 5V
+- TRIG → GPIO4
+- ECHO → resistor divider → GPIO5
+- GND → ESP32 GND
+
+The ECHO voltage divider uses a 2 kΩ resistor and a 3.3 kΩ resistor to help reduce the sensor's signal voltage before it reaches the ESP32.
+
+### GPIO Expansion
+
+I completed the 8-pin GPIO expansion header and connected it to selected ESP32 GPIO pins:
+
+- GPIO6
+- GPIO7
+- GPIO8
+- GPIO9
+- GPIO10
+- GPIO3
+- GPIO2
+- GPIO1
+
+I reviewed the routing and checked that the GPIO connections were clean.
+
+### Final PCB Review
+
+After completing the main connections, I reviewed the PCB layout for disconnected traces, overlapping connections, and routing issues. I also checked that the motor and GPIO routing remained organized.
+
+The current design is a PCB prototype created in Protoboard Designer. It has not been physically manufactured or electrically tested. The TB6612FNG footprints are still placeholders and will need to be replaced with a verified footprint and pinout for the exact motor-driver module before a physical board is made.
+
+### What I Learned
+
+This part of the project helped me understand how different parts of a robotics controller can be organized on a PCB. I worked with motor connections, sensor signals, voltage-divider routing, GPIO expansion, and power routing. I also learned that choosing the correct footprint and verifying the actual pinout of a component is important before manufacturing a PCB.
+
+### Next Steps
+
+- Verify the exact TB6612FNG module and footprint.
+- Verify the final power-regulation design.
+- Review the PCB again before manufacturing.
+- Eventually manufacture and electrically test the board.
+
