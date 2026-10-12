@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 1 | Tier 2 | 24.5h | 5 |
+| Week 1 | Tier 2 | 22h | 5 |
 
 ## Contents
 
@@ -114,13 +114,10 @@ I spent time continuing the ClunkeyCore PCB layout for the Clunkey Rover. I conn
 
 ### 2026-10-11 – ClunkeyCore PCB — Final Design & Documentation Day
 
-**11h**
+**8.5h**
 
 ClunkeyCore PCB — Final Design & Documentation Day
-Start Time: 10:00 AM
-End Time: 9:38 PM
-Break: 6:00–6:30 PM
-Total Work Time: 11 hours 8 minutes
+
 Today I continued working on my ClunkeyCore ESP32 robotics controller PCB in Protoboard Designer. I started at 10:00 AM and worked throughout the day on the final PCB layout, connections, and documentation. I reviewed and cleaned up the overall board layout, worked on the ESP32 and HC-SR04 connections, and checked the sensor routing and resistor voltage-divider area.
 I also continued working on the two TB6612 motor-driver placeholder footprints and the four motor connections. Motor 1 and Motor 2 were routed to the TB6612 #2 placeholder, while Motor 3 and Motor 4 were routed to TB6612 #1. I reviewed the power-input routing and the GPIO expansion header and checked the traces for organization and possible routing issues.
 Throughout the day, I also worked on documenting the project through my README, BOM, and JOURNAL files and took additional screenshots of the PCB and individual sections to show my progress. The motor-driver footprints remain placeholders because the exact module footprint was not available in Protoboard Designer, so the current project is being documented as a PCB design prototype rather than a manufactured or electrically tested board.
