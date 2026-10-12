@@ -1,3 +1,10 @@
+## PCB Design
+
+![ClunkeyCore PCB layout]
+
+<img width="2360" height="1391" alt="image" src="https://github.com/user-attachments/assets/e0ce242b-215e-4682-bb2e-fe443181753b" />
+
+
 # ClunkeyCore — ESP32 Robotics Controller
 
 ClunkeyCore is a PCB control-board design for my Clunkey Rover, a four-wheel robotics project inspired by my experience with FIRST Robotics.
