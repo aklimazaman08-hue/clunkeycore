@@ -1,2 +1,28 @@
-Item,Qty,Supplier,Cost/item,Total Cost,link
-Estimated total shipping,1,,,$0.00,
+# ClunkeyCore — Bill of Materials (BOM)
+
+This document tracks the components planned for the ClunkeyCore rover. Prices and availability must be verified before purchasing.
+
+| Component | Quantity | Unit Price | Status |
+|---|---:|---:|---|
+| ESP32 DevKit V1 | 1 | To verify | Planned |
+| TB6612FNG dual motor driver | 1 | To verify | Planned |
+| HC-SR04 ultrasonic sensor | 1 | To verify | Planned |
+| DC motors | 4 | To verify | Planned |
+| Rover chassis and wheels | 1 set | To verify | Planned |
+| Battery holder and batteries | 1 set | To verify | Planned |
+| Jumper wires | 1 set | To verify | Planned |
+| Resistors for voltage divider | 1 set | To verify | Planned |
+
+## Budget Notes
+
+- Target budget: $65.
+- Prices and availability have not yet been verified.
+- This list is a planning document, not confirmation that components have been purchased.
+- Check the motor driver's current capacity and the motors' voltage and current requirements before building.
+- Verify the real circuit wiring before connecting power.
+
+## Next Steps
+
+- Confirm which components are already available.
+- Verify vendor prices and quantities.
+- Calculate the total only after prices are confirmed.
