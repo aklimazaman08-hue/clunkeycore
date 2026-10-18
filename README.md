@@ -86,3 +86,31 @@ The motor-driver footprints are placeholders and should be replaced with a verif
 ClunkeyCore is part of my robotics work inspired by FIRST Robotics and my experience designing and working with competition robots.
 
 The project is named after Clunkey, my team's robotics mascot.
+
+## Week 2 — ClunkeyCore
+
+### Project Overview
+ClunkeyCore is an ongoing robotics project inspired by my experience with FIRST Robotics. This project explores enclosure design, electronics, and autonomous rover concepts.
+
+### Week 2 Progress
+
+**1. CAD Design — ClunkeyShell**
+- Developed an enclosure concept in Onshape.
+- Organized the enclosure design into components, including the base, lid concept, and sensor mount foot.
+- Next: review dimensions and prepare printable model exports.
+
+**2. Circuit Simulation — BenchTwin**
+- Set up an ESP32, TB6612FNG motor driver, HC-SR04 ultrasonic sensor, DC motors, and a battery supply in the simulation.
+- Explored sensor connections and a voltage-divider arrangement for the ultrasonic sensor's ECHO signal.
+- The simulation reported no issues requiring attention.
+- Physical wiring and hardware behavior still need verification.
+
+**3. Next Steps**
+- Export and review printable CAD files.
+- Review motor wiring and power requirements before building.
+- Continue documenting design decisions and testing.
+- Complete the Week 2 progress reel.
+
+### Current Status
+ClunkeyCore is in the design and simulation stage. The enclosure and electronics have not yet been verified in a physical build.
+
