@@ -114,3 +114,19 @@ ClunkeyCore is an ongoing robotics project inspired by my experience with FIRST 
 ### Current Status
 ClunkeyCore is in the design and simulation stage. The enclosure and electronics have not yet been verified in a physical build.
 
+### BenchTwin Circuit Simulation
+
+I created a circuit simulation to explore how the ClunkeyCore rover's electronics could work together.
+
+**Components explored**
+- ESP32 DevKit V1 microcontroller
+- TB6612FNG dual motor driver
+- HC-SR04 ultrasonic distance sensor
+- DC motors and battery supply
+- Resistor voltage divider for the sensor's ECHO signal
+
+**What I learned**
+
+The simulation helped me explore the connections between the microcontroller, distance sensor, and motor driver. I used a resistor voltage divider on the sensor's ECHO signal rather than connecting it directly to the ESP32 input.
+
+**Current status:** The circuit was simulated in BenchTwin. The physical wiring, power requirements, and motor connections still need to be verified before a real hardware build.
