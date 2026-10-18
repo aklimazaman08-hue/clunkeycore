@@ -81,3 +81,36 @@ I also added a simulated 4WD robot chassis plate as the starting point for the r
 ![IMG_0180](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/2DzupgroQiyESZ4TOplYYXhciyEobU0X/d89d5fffc0c91a33357cc68bccc175e8dad2e49f2726d80763abf2930a018326.jpg)
 
 ![IMG_0175](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/2DzupgroQiyESZ4TOplYYXhciyEobU0X/838d2d2c5623fa05ccefa16163ff37f231ace725b81e0873a487298a2d5a9252.jpg)
+
+# ClunkeyCore Project Journal
+
+## Week 2 — CAD Design and Circuit Simulation
+
+### Project Goal
+Continue developing ClunkeyCore, a rover project inspired by my experience with FIRST Robotics. This week's focus is enclosure design, electronics planning, and circuit simulation.
+
+### CAD Design — ClunkeyShell
+I worked on the ClunkeyShell enclosure concept in Onshape. I captured a screenshot of the design and added it to the GitHub README to document my progress.
+
+**Current status:** The enclosure is still a concept. Printable model exports and further dimensional reviews remain to be completed.
+
+### Electronics — BenchTwin
+I worked on a BenchTwin circuit simulation using an ESP32 DevKit V1, TB6612FNG motor driver, HC-SR04 ultrasonic sensor, DC motors, and a battery supply.
+
+I explored the circuit connections and used a resistor voltage divider for the ultrasonic sensor's ECHO signal before connecting it to an ESP32 input.
+
+**Current status:** The simulation reported no issues requiring attention. This does not confirm that a physical circuit will work correctly.
+
+### Challenges and Learning
+This work helped me connect enclosure design with electronics planning. I also learned why signal voltage levels matter when connecting sensors to a microcontroller.
+
+### Next Steps
+- Review the enclosure dimensions and export printable CAD models.
+- Verify motor wiring, power requirements, and component connections before physical assembly.
+- Continue documenting the design and simulation.
+- Finish and review the Week 2 progress reel.
+
+### Project Status
+ClunkeyCore remains in the design and simulation stage. Physical construction and hardware testing have not yet been verified.
+
+
